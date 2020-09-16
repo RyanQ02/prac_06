@@ -10,4 +10,4 @@ class ProgrammingLanguage:
             self.name, self.typing, self.reflection, self.year)
 
     def is_dynamic(self):
-        print("{}, {}, {}, first appeared in {}".format(self.name, self.typing, self.reflection, self.year))
+        return self.typing == "Dynamic"
