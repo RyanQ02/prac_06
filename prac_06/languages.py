@@ -1,4 +1,4 @@
-from prac_06.programing_language import ProgrammingLanguage
+from prac_06.programming_language import ProgrammingLanguage
 
 
 def main():
